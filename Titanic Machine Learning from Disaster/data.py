@@ -57,6 +57,9 @@ for i in range(100):
             maxlen = l
             best_n_estimators = i+20
             best_min_samples_leaf = j+1
+print(maxlen)
+print(best_n_estimators)
+print(best_min_samples_leaf)
 
 """test = pd.read_csv("Titanic Machine Learning from Disaster\\test.csv")
 passengerId = test["PassengerId"]
